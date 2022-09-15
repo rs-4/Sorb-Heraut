@@ -1,38 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
 .App {
-  text-align: center;
+  position: relative;
+  width: 1440px;
+  height: 2048px;
+  
+  background: #013070;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Fond{
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Barre{
+  position: absolute;
+width: 1440px;
+height: 82px;
+left: 0px;
+top: 0px;
+z-index: 2;
+
+background: rgba(0, 0, 0, 0.3);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logoDroit{
+  position: absolute;
+width: 63px;
+height: 63px;
+left: 19px;
+top: 10px;
+z-index: 3;
+}
+
+.texte{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;  
+}
+
+.Qui{
+  position: absolute;
+  width: 256px;
+  height: 45px;
+  left: 429px;
+  top: 19px;
   color: white;
+  z-index: 3;
 }
 
-.App-link {
-  color: #61dafb;
+.contact{
+  position: absolute;
+  width: 216px;
+  height: 45px;
+  left: 794px;
+  top: 19px;
+  color: white;
+  z-index: 3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Logo{
+  position: absolute;
+width: 409px;
+height: 465px;
+left: 832px;
+top: 279px;
+z-index: 3;
+}
+
+.TextePrincipal{
+  position: absolute;
+width: 552px;
+height: 85px;
+left: 199px;
+top: 504px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 86px;
+z-index: 3;
+color: #957333;
+}
+
+.Iconreseaux{
+
+  position: absolute;
+  z-index: 3;  
+}
+
+.transi{
+  position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 1024px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.TextHistoire{
+  position: absolute;
+width: 1160px;
+height: 384px;
+left: 176px;
+top: 1071px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+color: #FFFFFF;
+}
+
+.Titre{
+
+position: absolute;
+width: 932px;
+height: 85px;
+left: 194px;
+top: 1515px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 65px;
+
+color: #957333;
+}
+
+.Image1{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 194px;
+  top: 1600px;
+  
+}
+
+.Image2{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 870px;
+  top: 1600px;
+}
+
+.rectangle{
+  position: absolute;
+  width: 1440px;
+  height: 81px;
+  left: 0px;
+  top: 1967px;
+  
+  background: rgba(0, 0, 0, 0.3);
+}
+.droit{
+  position: absolute;
+  width: 184px;
+  height: 17px;
+  left: 628px;
+  top: 1999px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+
+  color: white;
+  z-index: 3;
 }
