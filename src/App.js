@@ -66,7 +66,7 @@ Pour nous, l’objectif est simple : proposer chaque semaine <br/> un évènemen
 Nous souhaitons bâtir un environnement permettant à tout étudiant, débutant ou plus avancé,<br/> de pratiquer l’éloquence, dans une ambiance conviviale et bienveillante.<br/><br/>
  Permanences externes, joutes oratoires, procès fictifs… <br/>Tous les moyens sont bons pour prendre la parole et transmettre votre message !</a>
       <a className='Titre'>D’où vient le nom Sorb’Hérauts</a>
-      <div className='ImageF'>>
+      <div className='ImageF'>
        <img src={Image1} className='Image1'/>
        <img src={Image2} className='Image2'/>
        </div>
