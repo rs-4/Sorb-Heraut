@@ -4,14 +4,13 @@
 
 
 #root{
- 
   background: rgb(0, 0, 0);
 }
 
 
 
   .App {
- 
+ position: relative;
   width: 100%;
   height: 2048px;
   background: #013070;
@@ -47,6 +46,7 @@ height: 63px;
 left: 19px;
 top: 10px;
 z-index: 3;
+border: solid 2px red;
 }
 
 .texte{
@@ -55,6 +55,7 @@ z-index: 3;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;  
+  border: solid 2px red;
 }
 
 .Qui{
@@ -65,6 +66,7 @@ z-index: 3;
   top: 19px;
   color: white;
   z-index: 3;
+  border: solid 2px red;
 }
 
 .contact{
@@ -75,6 +77,7 @@ z-index: 3;
   top: 19px;
   color: white;
   z-index: 3;
+  border: solid 2px red;
 }
 
 
@@ -87,6 +90,7 @@ left: 55%;
 top: 279px;
 margin-right: 2%;
 z-index: 3;
+border: solid 2px red;
 }
 
 .TextePrincipal{
@@ -102,6 +106,7 @@ font-size: 64px;
 line-height: 86px;
 z-index: 3;
 color: #957333;
+border: solid 2px red;
 }
 
 
@@ -109,6 +114,7 @@ color: #957333;
   left: 15%;
   position: absolute;
   z-index: 3;
+  border: solid 2px red;
 }
 
 .Iconreseaux{
@@ -116,6 +122,7 @@ color: #957333;
   top: 614px;
   position: absolute;
   z-index: 3;  
+  border: solid 2px red;
 }
 
 
@@ -143,8 +150,7 @@ color: #FFFFFF;
 .Titre{
 
 position: absolute;
-width: 932px;
-height: 85px;
+
 left: 15%;
 top: 1515px;
 
@@ -153,7 +159,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 48px;
 line-height: 65px;
-
+border: solid 2px red;
 color: #957333;
 }
 
@@ -163,7 +169,7 @@ color: #957333;
   height: 350px;
   left: 20%;
   top: 1600px;
-  
+  border: solid 2px red;
 }
 
 .Image2{
@@ -172,6 +178,7 @@ color: #957333;
   height: 350px;
   left: 60%;
   top: 1600px;
+  border: solid 2px red;
 }
 
 .rectangle{
@@ -180,7 +187,7 @@ color: #957333;
   height: 81px;
   left: 0px;
   top: 1967px;
-  
+
   background: rgba(0, 0, 0, 0.3);
 }
 .droit{
@@ -198,6 +205,7 @@ color: #957333;
 
   color: white;
   z-index: 3;
+  border: solid 2px red;
 }
 
 
@@ -255,7 +263,117 @@ color: #957333;
   top: 279px;
   z-index: 3;
   }
+  .App {
+ 
+    width: 100%;
+    height: 2500px;
+    background: #013070;
+    position: absolute;
+  
   }
+
+  .rectangle{
+    position: absolute;
+    width: 100%;
+height: 82px;  
+    top: 2419px;
+  
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .droit{
+    position: absolute;
+    width: 184px;
+    height: 17px;
+    left: 50%;
+    top: 2450px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+  
+    color: white;
+    z-index: 3;
+  }
+  
+  .Image1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 20%;
+    top: 1650px;
+    
+  }
+  
+  .Image2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 20%;
+    top: 2050px;
+  }
+  
+
+  .TextHistoire{
+    position: relative;
+  width: 1000px;
+  height: 384px;
+  left: 10%;
+  top: 1000px;
+  
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+  }
+  
+  
+  .Titre{
+
+    position: absolute;
+
+    left: 15%;
+    top: 1550px;
+    
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    
+    color: #957333;
+    }
+    
+  
+
+  }
+
+  @media (max-width: 1100px){
+    .TextHistoire{
+      position: relative;
+    width: 1000px;
+    height: 384px;
+    left: 10%;
+    top: 1000px;
+    
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+  
+    color: #FFFFFF;
+    }
+    
+
+  }
+
+
 
   @media (max-width: 800px){
 
@@ -280,4 +398,217 @@ color: #957333;
       z-index: 3;
       font-size: 20px;
     }
+
+  }
+
+
+  
+  @media (max-width: 375px){
+ 
+    .App {
+      position: relative;
+      width: 375px;
+      height: 2436px;
+      
+      background: #013070;
+    }
+     .Fond{
+     
+      position: absolute;
+      width: 375px;
+      height: 819px;
+      left: 0px;
+      top: 0px;
+     }
+     
+     .Barre{
+      position: absolute;
+      width: 374px;
+      height: 49px;
+      left: 0px;
+      top: 0px;
+      
+      background: rgba(0, 0, 0, 0.3);
+     }
+     
+     .logoDroit{
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 6px;
+      top: 7px;
+     }
+     
+ 
+     
+     .Qui{
+      position: absolute;
+      width: 133px;
+      height: 19px;
+      left: 55px;
+      top: 14px;
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      
+      color: #FFFFFF;
+      
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     }
+     
+     .contact{
+      position: absolute;
+      width: 108px;
+      height: 20px;
+      left: 214px;
+      top: 14px;
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      
+      color: #FFFFFF;
+      
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     }
+     
+     
+     
+     .Logo{
+      position: absolute;
+      width: 312px;
+      height: 355px;
+      left: 24px;
+      top: 232px;
+     }
+     
+     .TextePrincipal{
+      position: absolute;
+      width: 342px;
+      height: 61px;
+      left: 22px;
+      top: 116px;
+      
+      font-family: 'Abril Fatface';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 54px;
+      
+      color: #957333;
+      
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     }
+     
+     
+     .logo1{
+       left: 10%;
+       position: absolute;
+       z-index: 3;
+       border: solid 2px red;
+     }
+     
+     .Iconreseaux{
+     
+       top: 614px;
+       position: absolute;
+       z-index: 3;  
+       border: solid 2px red;
+     }
+     
+     
+     
+     .TextHistoire{
+      position: absolute;
+      width: 311px;
+      height: 756px;
+      left: 41px;
+      top: 873px;
+      
+      font-family: 'Abril Fatface';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      
+      color: #FFFFFF;
+     }
+     
+     
+     
+     
+     
+     .Titre{
+     
+      position: absolute;
+      width: 312px;
+      height: 85px;
+      left: 41px;
+      top: 1654px;
+      
+      font-family: 'Abril Fatface';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 49px;
+      
+      color: #957333;
+      
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     }
+     
+     .Image1{
+      position: absolute;
+      width: 263px;
+      height: 263px;
+      left: 41px;
+      top: 1776px;
+     }
+     
+     .Image2{
+      position: absolute;
+      width: 263px;
+      height: 263px;
+      left: 41px;
+      top: 2064px;
+      
+     }
+     
+     .rectangle{
+      position: absolute;
+      width: 378px;
+      height: 51px;
+      left: -2px;
+      top: 2385px;
+      
+      background: rgba(0, 0, 0, 0.3);
+     }
+     .droit{
+ /* Tout droits réservé - Sorb’Hérauts */
+
+
+position: absolute;
+width: 184px;
+height: 17px;
+left: 96px;
+top: 2402px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+     }
+     
+     
   }

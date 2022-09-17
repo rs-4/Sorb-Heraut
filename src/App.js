@@ -54,8 +54,8 @@ function App() {
       <img src={facebooklogo} className='Iconreseaux' style={{left:'240px',cursor:'pointer'}}/></a>
       </div>
       <div className='texte'>
-        <a className='Qui' onClick={scrollbar} style={{cursor:'pointer'}}>Qui sommes-nous ?</a>
-        <a  className='contact'style={{cursor:'pointer'}}>Contactez-nous !</a>        
+        <span className='Qui' onClick={scrollbar} style={{cursor:'pointer'}}>Qui sommes-nous ?</span>
+        <span className='contact'style={{cursor:'pointer'}}>Contactez-nous !</span>        
       </div>
       <a className='TextePrincipal'>Prenez la parole !</a>
       <div className='Barre'/>  
@@ -65,7 +65,7 @@ de l’art oratoire au sein de l’Université Paris 1 Panthéon-Sorbonne. <br/>
 Pour nous, l’objectif est simple : proposer chaque semaine <br/> un évènement oratoire ouvert à tous les étudiants de Paris 1 <br/><br/>afin de promouvoir la pratique de l’éloquence. <br/><br/>
 Nous souhaitons bâtir un environnement permettant à tout étudiant, débutant ou plus avancé,<br/> de pratiquer l’éloquence, dans une ambiance conviviale et bienveillante.<br/><br/>
  Permanences externes, joutes oratoires, procès fictifs… <br/>Tous les moyens sont bons pour prendre la parole et transmettre votre message !</span>
-      <a className='Titre'>D’où vient le nom Sorb’Hérauts</a>
+      <span className='Titre'>D’où vient le nom Sorb’Hérauts</span>
       <div className='ImageF'>
        <img src={Image1} className='Image1'/>
        <img src={Image2} className='Image2'/>
