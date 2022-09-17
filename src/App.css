@@ -666,7 +666,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: absolute;
       width: 133px;
       height: 19px;
-      left: 55px;
+      left: 75px;
       top: 14px;
       
       font-family: 'Poppins';
@@ -684,7 +684,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: absolute;
       width: 108px;
       height: 20px;
-      left: 214px;
+      left: 224px;
       top: 14px;
       
       font-family: 'Poppins';
@@ -704,7 +704,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: absolute;
       width: 312px;
       height: 355px;
-      left: 24px;
+      left: 44px;
       top: 232px;
      }
      
@@ -712,7 +712,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: absolute;
       width: 342px;
       height: 61px;
-      left: 22px;
+      left: 42px;
       top: 116px;
       
       font-family: 'Abril Fatface';
@@ -728,7 +728,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
      
      
      .logo1{
-       left: 10%;
+       left: 14%;
        position: absolute;
        z-index: 3;
     
@@ -748,7 +748,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: absolute;
       width: 311px;
       height: 756px;
-      left: 41px;
+      left: 61px;
       top: 873px;
       
       font-family: 'Abril Fatface';
@@ -769,7 +769,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: absolute;
       width: 312px;
       height: 85px;
-      left: 41px;
+      left: 61px;
       top: 1654px;
       
       font-family: 'Abril Fatface';
@@ -787,7 +787,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: absolute;
       width: 263px;
       height: 263px;
-      left: 41px;
+      left: 61px;
       top: 1776px;
      }
      
@@ -795,7 +795,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: absolute;
       width: 263px;
       height: 263px;
-      left: 41px;
+      left: 61px;
       top: 2064px;
       
      }
