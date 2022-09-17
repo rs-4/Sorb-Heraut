@@ -46,7 +46,7 @@ height: 63px;
 left: 19px;
 top: 10px;
 z-index: 3;
-border: solid 2px red;
+
 }
 
 .texte{
@@ -55,7 +55,7 @@ border: solid 2px red;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;  
-  border: solid 2px red;
+
 }
 
 .Qui{
@@ -66,7 +66,7 @@ border: solid 2px red;
   top: 19px;
   color: white;
   z-index: 3;
-  border: solid 2px red;
+
 }
 
 .contact{
@@ -77,7 +77,7 @@ border: solid 2px red;
   top: 19px;
   color: white;
   z-index: 3;
-  border: solid 2px red;
+
 }
 
 
@@ -90,7 +90,7 @@ left: 55%;
 top: 279px;
 margin-right: 2%;
 z-index: 3;
-border: solid 2px red;
+
 }
 
 .TextePrincipal{
@@ -106,7 +106,7 @@ font-size: 64px;
 line-height: 86px;
 z-index: 3;
 color: #957333;
-border: solid 2px red;
+
 }
 
 
@@ -114,7 +114,7 @@ border: solid 2px red;
   left: 15%;
   position: absolute;
   z-index: 3;
-  border: solid 2px red;
+
 }
 
 .Iconreseaux{
@@ -122,7 +122,7 @@ border: solid 2px red;
   top: 614px;
   position: absolute;
   z-index: 3;  
-  border: solid 2px red;
+ 
 }
 
 
@@ -139,7 +139,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 32px;
-border: solid 2px red;
 color: #FFFFFF;
 }
 
@@ -159,7 +158,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 48px;
 line-height: 65px;
-border: solid 2px red;
 color: #957333;
 }
 
@@ -169,7 +167,7 @@ color: #957333;
   height: 350px;
   left: 20%;
   top: 1600px;
-  border: solid 2px red;
+ 
 }
 
 .Image2{
@@ -178,7 +176,7 @@ color: #957333;
   height: 350px;
   left: 60%;
   top: 1600px;
-  border: solid 2px red;
+ 
 }
 
 .rectangle{
@@ -205,7 +203,7 @@ color: #957333;
 
   color: white;
   z-index: 3;
-  border: solid 2px red;
+
 }
 
 
@@ -375,7 +373,7 @@ height: 82px;
 
 
 
-  @media (max-width: 70px){
+  @media (max-width: 1100px){
 
     .Qui{
       position: absolute;
@@ -403,6 +401,12 @@ height: 82px;
 
   @media(max-width: 816px) {
 
+
+#root{
+  background: #013070;
+}
+
+
     .App {
       position: relative;
       width: 816px;
@@ -413,7 +417,7 @@ height: 82px;
      .Fond{
      
       position: absolute;
-      width: 816px;
+      width: 100%;
       height: 819px;
       left: -1px;
       top: 0px;
@@ -421,7 +425,7 @@ height: 82px;
      
      .Barre{
       position: absolute;
-      width: 815px;
+      width: 100%;
       height: 49px;
       left: 0px;
       top: 0px;
@@ -513,7 +517,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
        left: 33%;
        position: absolute;
        z-index: 3;
-       border: solid 2px red;
+    
      }
      
      .Iconreseaux{
@@ -583,7 +587,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
      
      .rectangle{
       position: absolute;
-      width: 825px;
+      width: 100%;
       height: 57px;
       left: 0px;
       top: 2063px;
@@ -727,7 +731,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
        left: 10%;
        position: absolute;
        z-index: 3;
-       border: solid 2px red;
+    
      }
      
      .Iconreseaux{
