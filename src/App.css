@@ -375,7 +375,7 @@ height: 82px;
 
 
 
-  @media (max-width: 800px){
+  @media (max-width: 375px) and (max-height:812){
 
     .Qui{
       position: absolute;
