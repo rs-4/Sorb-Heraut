@@ -21,7 +21,7 @@ import { useMediaQuery } from 'react-responsive'
   function scrollbar() {
 
     window.scrollTo({
-      top: 50, 
+      top: 1024,
       left: 0,
       behavior: 'smooth'
       /* you can also use 'auto' behaviour
