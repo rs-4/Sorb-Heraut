@@ -403,7 +403,7 @@ height: 82px;
 
 
   
-  @media (max-width: 375px){
+  @media(max-width: 700px){
  
     .App {
       position: relative;
@@ -432,7 +432,7 @@ height: 82px;
      }
      
      .logoDroit{
-      position: absolute;
+      position: relative;
       width: 32px;
       height: 32px;
       left: 6px;
