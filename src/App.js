@@ -43,15 +43,15 @@ function App() {
 
       <div className='logo1'>
       <a href={url} target="_blank" rel="noreferrer">       
-      <img src={instagramlogo} className='Iconreseaux' style={{top:'614px',cursor:'pointer'}}/></a>
+      <img src={instagramlogo} className='Iconreseaux' style={{cursor:'pointer'}}/></a>
       <a href={url} target="_blank" rel="noreferrer">
-      <img src={tiktoklogo} className='Iconreseaux' style={{top:'614px',left:'60px',cursor:'pointer'}}/></a>
+      <img src={tiktoklogo} className='Iconreseaux' style={{left:'60px',cursor:'pointer'}}/></a>
       <a href={url} target="_blank" rel="noreferrer">
-      <img src={youtubelogo} className='Iconreseaux' style={{top:'614px',left:'120px',cursor:'pointer'}}/></a>
+      <img src={youtubelogo} className='Iconreseaux' style={{left:'120px',cursor:'pointer'}}/></a>
       <a href={url} target="_blank" rel="noreferrer">
-      <img src={linkedinlogo} className='Iconreseaux' style={{top:'614px',left:'180px',cursor:'pointer'}}/></a>
+      <img src={linkedinlogo} className='Iconreseaux' style={{left:'180px',cursor:'pointer'}}/></a>
       <a href={url} target="_blank" rel="noreferrer">
-      <img src={facebooklogo} className='Iconreseaux' style={{top:'614px',left:'240px',cursor:'pointer'}}/></a>
+      <img src={facebooklogo} className='Iconreseaux' style={{left:'240px',cursor:'pointer'}}/></a>
       </div>
       <div className='texte'>
         <a className='Qui' onClick={scrollbar} style={{cursor:'pointer'}}>Qui sommes-nous ?</a>
