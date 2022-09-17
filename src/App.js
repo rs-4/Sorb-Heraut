@@ -60,11 +60,11 @@ function App() {
       <a className='TextePrincipal'>Prenez la parole !</a>
       <div className='Barre'/>  
       <div className='transi'/>
-      <a className='TextHistoire'>Sorb’Hérauts est une association étudiante <br/>de débat et  d’éloquence visant à promouvoir la pratique<br/> 
+      <span className='TextHistoire'>Sorb’Hérauts est une association étudiante <br/>de débat et  d’éloquence visant à promouvoir la pratique<br/> 
 de l’art oratoire au sein de l’Université Paris 1 Panthéon-Sorbonne. <br/><br/>
-Pour nous, l’objectif est simple : proposer chaque semaine <br/> un évènement oratoire ouvert à tous les étudiants de Paris 1 afin de promouvoir la pratique de l’éloquence. <br/><br/>
+Pour nous, l’objectif est simple : proposer chaque semaine <br/> un évènement oratoire ouvert à tous les étudiants de Paris 1 <br/><br/>afin de promouvoir la pratique de l’éloquence. <br/><br/>
 Nous souhaitons bâtir un environnement permettant à tout étudiant, débutant ou plus avancé,<br/> de pratiquer l’éloquence, dans une ambiance conviviale et bienveillante.<br/><br/>
- Permanences externes, joutes oratoires, procès fictifs… <br/>Tous les moyens sont bons pour prendre la parole et transmettre votre message !</a>
+ Permanences externes, joutes oratoires, procès fictifs… <br/>Tous les moyens sont bons pour prendre la parole et transmettre votre message !</span>
       <a className='Titre'>D’où vient le nom Sorb’Hérauts</a>
       <div className='ImageF'>
        <img src={Image1} className='Image1'/>
