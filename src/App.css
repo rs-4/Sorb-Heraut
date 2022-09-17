@@ -92,8 +92,8 @@ z-index: 3;
   position: absolute;
 width: 552px;
 height: 85px;
-left: 18%;
-top: 504px;
+left: 15%;
+top: 500px;
 font-family: 'Abril Fatface';
 font-style: normal;
 font-weight: 400;
@@ -105,7 +105,7 @@ color: #957333;
 
 
 .logo1{
-  left: 18%;
+  left: 15%;
   position: absolute;
   z-index: 3;
 }
